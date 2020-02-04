@@ -1,0 +1,19 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+            "context_set": ""
+        },
+        {
+            "tag": "civilengineering",
+            "patterns": ["civil", "programming", "civil enigneer needs programming?"],
+            "responses": ["Speaking as a structural engineer at least (and I believe this to be true for most other CE fields), for the most part you will be doing hand calculations, and using pre-existing software. Of course, these software packages usually allow you to write custom scripts, but they are frosting on the cake, and are usually not necessary for the day to day aspects of your job.CE can involve programming if you want it to. Being able to write your own programs, whether in Python, or VBA, allows you to expand the existing capabilities of your software.Additionally, if you end up going more into research, than practice, you will likely need to be able to code in some of the more common languages used in research, such as MATLAB."]
+        },
+        {
+            "tag": "cseengineering",
+            "patterns": ["cse", "computer science", "computer engineer", "programming", "cse enigneer needs programming?", "computer enigneer needs programming?"],
+            "responses": ["coding is not the Engineering. It’s just a part of Engineering.It is not necessary that a computer Engineering must have the knowledge in coding to develop something or to get a good job.Coding is taught in other courses too, viz: Information Technology, Computer Science, Computer Application, Computer Graphics design, Application development, software development. But there is a difference between those courses and computer Engineering, that’s the depth of knowledge that a computer Engineer gains during his engineering study.In short, Coding is taught in Computer Engineering, but only coding is not computer Engineering. Having idea of only coding doesn’t make a person computer engineer. We learn to code to have idea regarding the program development, but the area we choose will determine how much knowledge in coding we should have.In my opinion, the major part of developing a system or a software is it’s design and it’s architecture, also called as blueprint of a system in the field of computer Engineering. Then comes the Coding, it’s something that anyone with some knowledge can do it."]
+        }
+    ]
+}
